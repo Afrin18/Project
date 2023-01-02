@@ -1,0 +1,7 @@
+li{
+    color: gold;
+}
+ul li{
+    color: green;
+    display: inline;
+}

@@ -1,0 +1,40 @@
+.header{
+    height: 150px;
+    /* background-image: url('../1.jpg'); */
+    background-image: url('../images/2.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-color: gold;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.blog{
+    background-color: royalblue;
+    box-shadow: 10px 10px 15px gray;
+    margin-bottom: 100px;
+}
+h2{
+    color: chartreuse;
+}
+h3{
+    color: yellow;
+    text-decoration: underline wavy green;
+
+}
+p{
+    color: rgb(230, 19, 12);
+}
+.page_title{
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+text-decoration: none;
+}
+span{
+    border: 2px solid red;
+    display:inline-block;
+    height: 200px;
+    width: 100px;
+    display: none;
+}
