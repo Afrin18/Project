@@ -172,13 +172,112 @@ nav li{
 }
 
 .right-side{
-
+    
 }
 .right-image{
     width: 450px;
     height: 600px;
 }
+.btn-special{
+    font-size: 15px;
+    font-weight: 200;
+    background: #eb7f04;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 7px 20px;
+    /* margin-top: 10px; */
+    margin-left: 670px;
+    margin-top: -70px;
+    margin-bottom: 20px;
+}
 /*=========== Feature love and enjoy end =============*/
 
+/*------------ Some Fact styles start -------------*/
+.fact-detail-box{
+    width: 345px;
+    height: 90px;
+    /* border: 2px solid #ff900e5e; */
+    margin-left: 210px;
+    margin-top: 50px;
+}
+.fact-boxes{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 40px;
+}
+.fact-box{
+    width: 115px;
+    height: 110px;
+    border: 2px solid #ff900e5e;
+    border-radius: 5px;
+    text-align: center;
+}
+.fact-title{
+    font-weight: 700;
+    margin-top: 0px;
+}
+.fact-des{
+    font-size: 12px;
+    color: #727272;
+    margin-top: 0px;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+    margin-top: 20px;
+}
+.taka{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.des{
+    font-size: 11px;
+    font-weight: 600;
+    color: #727272;
+    margin-top: 0px;
+}
+/*------------ Some Fact styles end -------------*/
+
+/*--------- Our sponser style start ----------*/
+.sponser-detail-box{
+    width: 370px;
+    height: 90px;
+    /* border: 2px solid #ff900e5e; */
+    margin-left: 500px;
+    margin-top: 110px;
+    text-align: center;
+}
+.sponser-des{
+    font-size: 12px;
+    color: #727272;
+    margin-top: 0px;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 30px;
+}
+.logo img{
+    width: 100px;
+    height: 30px;
+}
+/*----------- Our sponser style end ----------*/
 
 /*------------ Footer Section Styles -----------*/
+.footer-box{
+    width: 850px;
+    height: 50px;
+    background-color:  #FFF4E7;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 250px;
+    margin-top: 90px;
+}
+.copy{
+    padding-top: 15px;
+    color: #727272;
+    font-size: 12px;
+}
