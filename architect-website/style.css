@@ -120,9 +120,6 @@ nav li{
     gap:100px;
     justify-content: center;
 }
-.left-side{
-
-}
 .title-box{
     width: 220px;
     height: 55px;
@@ -150,9 +147,6 @@ nav li{
     color: #727272;
     margin-top: 0px;
 }
-.boxes{
-
-}
 .box{
     width: 400px;
     height: 72px;
@@ -171,9 +165,7 @@ nav li{
     font-size: 15px;
 }
 
-.right-side{
-    
-}
+
 .right-image{
     width: 450px;
     height: 600px;
@@ -201,6 +193,15 @@ nav li{
     margin-left: 210px;
     margin-top: 50px;
 }
+.fact-title{
+    font-weight: 700;
+    margin-top: 0px;
+}
+.fact-des{
+    font-size: 12px;
+    color: #727272;
+    margin-top: 0px;
+}
 .fact-boxes{
     display: flex;
     justify-content: center;
@@ -214,15 +215,7 @@ nav li{
     border-radius: 5px;
     text-align: center;
 }
-.fact-title{
-    font-weight: 700;
-    margin-top: 0px;
-}
-.fact-des{
-    font-size: 12px;
-    color: #727272;
-    margin-top: 0px;
-}
+
 .icon{
     width: 24px;
     height: 24px;
@@ -266,18 +259,102 @@ nav li{
 }
 /*----------- Our sponser style end ----------*/
 
+/*-------------- Extra section styles start ---------------------*/
+.contact{
+    width: 400px;
+    height:400px;
+    /* background-color:  #FFF4E7;  */
+    text-decoration: none;
+    margin-left: 220px;
+    margin-top: 70px;
+}
+.contact .massage-title{
+    text-align: left;
+}
+.contact input[type="email"], textarea{
+    margin-bottom: 24px;
+    border-radius: 9px;
+    border: 2px solid #fde2c2;
+    width: 80%;
+    padding: 18px 30px;
+}
+input{
+    height: 20px;
+}
+.btn-send{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 200;
+    background: #FF900E;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+/*-------------- Extra section styles end ---------------------*/
+
 /*------------ Footer Section Styles -----------*/
 .footer-box{
-    width: 850px;
+    width: 900px;
     height: 50px;
-    background-color:  #FFF4E7;
+    background-color:  #fdefdf;
     text-align: center;
     border-radius: 5px;
-    margin-left: 250px;
-    margin-top: 90px;
+    margin-left: 210px;
+    margin-top: 80px;
+    margin-bottom: 30px;
 }
 .copy{
     padding-top: 15px;
     color: #727272;
     font-size: 12px;
+}
+
+/*----------------- Mobile Device Responsive ---------------*/
+@media only screen and (max-width: 688px) {
+     .header{
+         width: 100%;
+     }
+     nav,
+     .header,
+     .header-details,
+     .header-image,
+     .list-feature,
+     .container .features{
+     flex-direction: column;
+     gap: 10px; 
+     padding: 10px 10px; 
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+        padding-left: 10px;
+    }
+    nav li{
+        /* margin-left: 0px; */
+    }
+    .header-banner{
+        padding-left: 0px;
+    }
+    .header-details{
+        margin-left: 0px;
+        /* text-align: left; */
+    }
+    .header-details,
+    .header-banner img{
+        width: 100%;
+    } 
+    .list-images{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .btn-special{
+        margin-left: 670px;
+        margin-top: -70px;
+        margin-bottom: 20px;
+    }   
+    .contact input[type="email"], textarea{
+     padding: 0 0 0 5px;
+ }
+
 }
